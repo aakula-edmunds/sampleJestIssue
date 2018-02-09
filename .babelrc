@@ -1,0 +1,3 @@
+{
+  "extends": "./archetype/config/babel/.babelrc"
+}

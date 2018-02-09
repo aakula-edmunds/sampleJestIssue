@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`client/sample.jsx should work 1`] = `
+<div
+  className="first"
+>
+  <p>
+    Sample One
+  </p>
+</div>
+`;

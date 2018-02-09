@@ -1,0 +1,23 @@
+{
+  "presets": [
+    "env",
+    "react"
+  ],
+  "plugins": [
+    "babel-plugin-transform-object-rest-spread",
+    "babel-plugin-transform-class-properties",
+    ["babel-plugin-i18n-id-hashing", {
+      "varsContainingMessages": ["defaultMessages", "translations"]
+    }],
+    ["babel-plugin-react-intl", {
+      "messagesDir": "./tmp/messages/",
+      "enforceDescriptions": true
+    }],
+    "transform-node-env-inline",
+    ["transform-runtime", {
+      "polyfill": false,
+      "useBuiltIns": true,
+      "useESModules": true
+    }],
+  ],
+}
