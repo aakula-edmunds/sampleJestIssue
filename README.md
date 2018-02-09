@@ -31,7 +31,10 @@ Sample commands to reproduce the issue:
 ## Workarounds
 There are workarounds:
 - `$` symbol should be added to the end of the filename, then test is run only once
+
   `yarn test client/sample.test.jsx$`
+  
 - use --testPathPattern parameter with the test file name as a value:
+
   `yarn test --testPathPattern client/sample.test.jsx`
  
